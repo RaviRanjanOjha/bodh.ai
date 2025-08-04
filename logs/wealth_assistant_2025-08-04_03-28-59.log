@@ -1,0 +1,70 @@
+2025-08-04 03:28:59,073 - root - INFO - Logging configured successfully
+2025-08-04 03:31:05,727 - api.routes.chat - INFO - Chat endpoint called with message: FY23 Q2 total projection for UXM practice in tabul...
+2025-08-04 03:31:05,728 - api.routes.chat - INFO - Request session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:31:05,728 - api.routes.chat - INFO - Cookie session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:31:07,095 - api.routes.chat - INFO - Target session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:31:07,337 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 03:31:07,337 - api.routes.chat - INFO - Existing messages count: 16
+2025-08-04 03:31:07,337 - api.routes.chat - INFO - Generating response...
+2025-08-04 03:31:07,338 - services.assistant.chat - INFO - Processing query: FY23 Q2 total projection for UXM practice in tabul...
+2025-08-04 03:31:07,339 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 03:31:07,466 - services.assistant.chat - INFO - Loaded 16 messages from conversation history
+2025-08-04 03:31:07,575 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 03:31:07,577 - services.assistant.chat - INFO - Handling general query with LLM: FY23 Q2 total projection for UXM practice in tabul...
+2025-08-04 03:31:38,609 - services.assistant.chat - INFO - LLM response generated: 485 characters
+2025-08-04 03:31:38,609 - services.assistant.chat - INFO - Generated response: 485 characters
+2025-08-04 03:31:38,610 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 03:31:38,610 - api.routes.chat - INFO - Response length: 485
+2025-08-04 03:31:38,610 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 03:31:38,610 - services.assistant.chat - INFO - Saving conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e with 2 messages
+2025-08-04 03:31:38,610 - services.storage.conversation - INFO - Saving conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e with 2 messages
+2025-08-04 03:31:38,817 - services.storage.conversation - INFO - Found existing conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e, appending messages
+2025-08-04 03:31:46,340 - services.assistant.chat - INFO - Successfully saved conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:31:46,340 - api.routes.chat - INFO - ✅ Conversation saved successfully: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:31:46,340 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 03:35:07,816 - api.routes.chat - INFO - Chat endpoint called with message: tell me FY22 Q1 total value for SBU "SBU - APJ"...
+2025-08-04 03:35:07,817 - api.routes.chat - INFO - Request session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:35:07,817 - api.routes.chat - INFO - Cookie session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:35:10,004 - api.routes.chat - INFO - Target session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:35:10,238 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 03:35:10,238 - api.routes.chat - INFO - Existing messages count: 18
+2025-08-04 03:35:10,238 - api.routes.chat - INFO - Generating response...
+2025-08-04 03:35:10,238 - services.assistant.chat - INFO - Processing query: tell me FY22 Q1 total value for SBU "SBU - APJ"...
+2025-08-04 03:35:10,239 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 03:35:10,362 - services.assistant.chat - INFO - Loaded 18 messages from conversation history
+2025-08-04 03:35:10,484 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 03:35:10,489 - services.assistant.chat - INFO - Handling general query with LLM: tell me FY22 Q1 total value for SBU "SBU - APJ"...
+2025-08-04 03:35:22,091 - services.assistant.chat - INFO - LLM response generated: 156 characters
+2025-08-04 03:35:22,091 - services.assistant.chat - INFO - Generated response: 156 characters
+2025-08-04 03:35:22,092 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 03:35:22,092 - api.routes.chat - INFO - Response length: 156
+2025-08-04 03:35:22,092 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 03:35:22,092 - services.assistant.chat - INFO - Saving conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e with 2 messages
+2025-08-04 03:35:22,093 - services.storage.conversation - INFO - Saving conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e with 2 messages
+2025-08-04 03:35:22,289 - services.storage.conversation - INFO - Found existing conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e, appending messages
+2025-08-04 03:35:30,000 - services.assistant.chat - INFO - Successfully saved conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:35:30,001 - api.routes.chat - INFO - ✅ Conversation saved successfully: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:35:30,001 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 03:36:09,686 - api.routes.chat - INFO - Chat endpoint called with message: list all fy22 q1 data for SBU "SBU - APJ"...
+2025-08-04 03:36:09,687 - api.routes.chat - INFO - Request session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:36:09,687 - api.routes.chat - INFO - Cookie session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:36:10,930 - api.routes.chat - INFO - Target session_id: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:36:11,141 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 03:36:11,141 - api.routes.chat - INFO - Existing messages count: 20
+2025-08-04 03:36:11,141 - api.routes.chat - INFO - Generating response...
+2025-08-04 03:36:11,141 - services.assistant.chat - INFO - Processing query: list all fy22 q1 data for SBU "SBU - APJ"...
+2025-08-04 03:36:11,142 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 03:36:11,257 - services.assistant.chat - INFO - Loaded 20 messages from conversation history
+2025-08-04 03:36:11,365 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 03:36:11,367 - services.assistant.chat - INFO - Handling general query with LLM: list all fy22 q1 data for SBU "SBU - APJ"...
+2025-08-04 03:36:29,096 - services.assistant.chat - INFO - LLM response generated: 709 characters
+2025-08-04 03:36:29,097 - services.assistant.chat - INFO - Generated response: 709 characters
+2025-08-04 03:36:29,097 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 03:36:29,097 - api.routes.chat - INFO - Response length: 709
+2025-08-04 03:36:29,097 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 03:36:29,097 - services.assistant.chat - INFO - Saving conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e with 2 messages
+2025-08-04 03:36:29,097 - services.storage.conversation - INFO - Saving conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e with 2 messages
+2025-08-04 03:36:29,330 - services.storage.conversation - INFO - Found existing conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e, appending messages
+2025-08-04 03:36:36,901 - services.assistant.chat - INFO - Successfully saved conversation for session 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:36:36,901 - api.routes.chat - INFO - ✅ Conversation saved successfully: 4405f895-eced-4183-98fa-4ce1ad96f77e
+2025-08-04 03:36:36,901 - api.routes.chat - INFO - Chat endpoint completed successfully

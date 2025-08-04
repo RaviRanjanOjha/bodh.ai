@@ -1,0 +1,47 @@
+2025-08-04 10:42:22,523 - root - INFO - Logging configured successfully
+2025-08-04 10:43:19,878 - api.routes.chat - INFO - Chat endpoint called with message: list down all the columns...
+2025-08-04 10:43:19,878 - api.routes.chat - INFO - Request session_id: 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d
+2025-08-04 10:43:19,879 - api.routes.chat - INFO - Cookie session_id: 0f80837d-4ef3-4b96-b1fb-9f694e87289b
+2025-08-04 10:43:20,504 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d, Cookie: 0f80837d-4ef3-4b96-b1fb-9f694e87289b
+2025-08-04 10:43:20,505 - api.routes.chat - INFO - Target session_id: 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d
+2025-08-04 10:43:20,543 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 10:43:20,544 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 10:43:20,544 - api.routes.chat - INFO - Generating response...
+2025-08-04 10:43:20,544 - services.assistant.chat - INFO - Processing query: list down all the columns...
+2025-08-04 10:43:20,545 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 10:43:20,624 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 10:43:20,627 - services.assistant.chat - INFO - Handling general query with LLM: list down all the columns...
+2025-08-04 10:44:10,705 - services.assistant.chat - INFO - LLM response generated: 106 characters
+2025-08-04 10:44:10,707 - services.assistant.chat - INFO - Generated response: 106 characters
+2025-08-04 10:44:10,707 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 10:44:10,707 - api.routes.chat - INFO - Response length: 106
+2025-08-04 10:44:10,707 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 10:44:10,707 - services.assistant.chat - INFO - Saving conversation for session 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d with 2 messages
+2025-08-04 10:44:10,707 - services.storage.conversation - INFO - Saving conversation for session 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d with 2 messages
+2025-08-04 10:44:10,812 - services.assistant.chat - INFO - Successfully saved conversation for session 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d
+2025-08-04 10:44:10,813 - api.routes.chat - INFO - ✅ Conversation saved successfully: 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d
+2025-08-04 10:44:10,813 - api.routes.chat - INFO - Setting session cookie: 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d
+2025-08-04 10:44:10,813 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 11:50:11,370 - api.routes.faq - ERROR - FAQ generation failed: SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68904136bf9a8154563149e4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/api/routes/faq.py", line 118, in get_faqs
+    for convo in cursor:
+                 ^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1264, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1155, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1823, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1766, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 573, in _check_implicit_session_support
+    self._check_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 589, in _check_session_support
+    self._select_servers_loop(
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 259, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68904136bf9a8154563149e4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
