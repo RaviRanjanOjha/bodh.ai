@@ -21,8 +21,6 @@ from api.routes.chat import router as chat_router
 from api.routes.clients import router as clients_router
 from api.routes.documents import router as documents_router
 from api.routes.compliance import router as compliance_router
-from api.routes.market import router as market_router
-from api.routes.visualizations import router as visualizations_router
 from config.logging_config import setup_logging
 from fastapi.middleware.cors import CORSMiddleware
 from api.routes import faq
@@ -64,8 +62,6 @@ app.include_router(chat_router)
 app.include_router(clients_router)
 app.include_router(documents_router)
 app.include_router(compliance_router)
-app.include_router(market_router)
-app.include_router(visualizations_router)
 app.include_router(faq.router)
 
 
