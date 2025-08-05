@@ -1,17 +1,12 @@
 import os
 from typing import Optional, Dict, Any, List
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.messages import HumanMessage, SystemMessage
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
 from config import settings
 import logging
 import json
 from services.assistant.documents import DocumentService
 
 logger = logging.getLogger(__name__)
-
-from services.assistant.compliance import ComplianceChecker
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from database.simulated_db import create_simulated_database

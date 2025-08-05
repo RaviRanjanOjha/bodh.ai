@@ -4,11 +4,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from typing import List
-import os
 from pathlib import Path
 import logging
-from datetime import datetime
-from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 logger = logging.getLogger(__name__)

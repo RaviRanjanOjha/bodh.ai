@@ -4,6 +4,4 @@ __all__ = [
     'clients_router',
     'documents_router', 
     'compliance_router',
-    'market_router',
-    'visualizations_router'
 ]
