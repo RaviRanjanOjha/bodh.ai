@@ -12,4 +12,3 @@ langchain_google_genai
 langchain_community
 plotly
 SpeechRecognition
-fastapi[all]

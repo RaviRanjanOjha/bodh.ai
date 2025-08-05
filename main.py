@@ -50,6 +50,7 @@ app.add_middleware(
         "http://127.0.0.1",  # Production mode (port 80)
         "http://localhost:80",  # Production mode explicit
         "http://127.0.0.1:80",  # Production mode explicit
+        "https://bodh-ai.onrender.com",  # Render.com production URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
