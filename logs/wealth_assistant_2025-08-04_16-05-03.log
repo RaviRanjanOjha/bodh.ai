@@ -1,0 +1,254 @@
+2025-08-04 16:05:03,213 - root - INFO - Logging configured successfully
+2025-08-04 16:05:29,798 - api.routes.chat - INFO - Chat endpoint called with message: list down all project ID...
+2025-08-04 16:05:29,799 - api.routes.chat - INFO - Request session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:05:29,799 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 16:05:31,174 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: bd289310-dcdf-4de2-ba93-3080ca5c1de0, Cookie: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 16:05:31,174 - api.routes.chat - INFO - Target session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:05:31,251 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 16:05:31,251 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 16:05:31,251 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:05:31,251 - services.assistant.chat - INFO - Processing query: list down all project ID...
+2025-08-04 16:05:31,252 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:05:31,406 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:05:31,408 - services.assistant.chat - INFO - Handling general query with LLM: list down all project ID...
+2025-08-04 16:05:44,562 - services.assistant.chat - INFO - LLM response generated: 505 characters
+2025-08-04 16:05:44,563 - services.assistant.chat - INFO - Generated response: 505 characters
+2025-08-04 16:05:44,563 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:05:44,563 - api.routes.chat - INFO - Response length: 505
+2025-08-04 16:05:44,563 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:05:44,563 - services.assistant.chat - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:05:44,563 - services.storage.conversation - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:05:44,864 - services.assistant.chat - INFO - Successfully saved conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:05:44,864 - api.routes.chat - INFO - ✅ Conversation saved successfully: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:05:44,864 - api.routes.chat - INFO - Setting session cookie: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:05:44,865 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:06:41,992 - api.routes.chat - INFO - Chat endpoint called with message: Add  all Revenue Onsite for Quarter "Q4'25" and sh...
+2025-08-04 16:06:41,993 - api.routes.chat - INFO - Request session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:06:41,993 - api.routes.chat - INFO - Cookie session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:06:43,517 - api.routes.chat - INFO - Target session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:06:43,615 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:06:43,615 - api.routes.chat - INFO - Existing messages count: 2
+2025-08-04 16:06:43,616 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:06:43,616 - services.assistant.chat - INFO - Processing query: Add  all Revenue Onsite for Quarter "Q4'25" and sh...
+2025-08-04 16:06:43,616 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:06:43,786 - services.assistant.chat - INFO - Loaded 2 messages from conversation history
+2025-08-04 16:06:43,895 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:06:43,899 - services.assistant.chat - INFO - Handling general query with LLM: Add  all Revenue Onsite for Quarter "Q4'25" and sh...
+2025-08-04 16:06:49,545 - services.assistant.chat - INFO - LLM response generated: 49 characters
+2025-08-04 16:06:49,545 - services.assistant.chat - INFO - Generated response: 49 characters
+2025-08-04 16:06:49,545 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:06:49,546 - api.routes.chat - INFO - Response length: 49
+2025-08-04 16:06:49,546 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:06:49,546 - services.assistant.chat - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:06:49,546 - services.storage.conversation - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:06:49,625 - services.storage.conversation - INFO - Found existing conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0, appending messages
+2025-08-04 16:06:55,461 - services.assistant.chat - INFO - Successfully saved conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:06:55,462 - api.routes.chat - INFO - ✅ Conversation saved successfully: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:06:55,462 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:08:00,293 - api.routes.chat - INFO - Chat endpoint called with message: sow me what data you added...
+2025-08-04 16:08:00,294 - api.routes.chat - INFO - Request session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:08:00,295 - api.routes.chat - INFO - Cookie session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:08:03,999 - api.routes.chat - INFO - Target session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:08:04,118 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:08:04,118 - api.routes.chat - INFO - Existing messages count: 4
+2025-08-04 16:08:04,118 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:08:04,119 - services.assistant.chat - INFO - Processing query: sow me what data you added...
+2025-08-04 16:08:04,119 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:08:04,222 - services.assistant.chat - INFO - Loaded 4 messages from conversation history
+2025-08-04 16:08:04,317 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:08:04,319 - services.assistant.chat - INFO - Handling general query with LLM: sow me what data you added...
+2025-08-04 16:08:15,184 - services.assistant.chat - INFO - LLM response generated: 418 characters
+2025-08-04 16:08:15,187 - services.assistant.chat - INFO - Generated response: 418 characters
+2025-08-04 16:08:15,187 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:08:15,187 - api.routes.chat - INFO - Response length: 418
+2025-08-04 16:08:15,188 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:08:15,188 - services.assistant.chat - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:08:15,188 - services.storage.conversation - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:08:16,136 - services.storage.conversation - INFO - Found existing conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0, appending messages
+2025-08-04 16:08:27,598 - services.assistant.chat - INFO - Successfully saved conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:08:27,598 - api.routes.chat - INFO - ✅ Conversation saved successfully: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:08:27,599 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:11:17,473 - api.routes.chat - INFO - Chat endpoint called with message: can you show me which all data you have considered...
+2025-08-04 16:11:17,474 - api.routes.chat - INFO - Request session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:11:17,474 - api.routes.chat - INFO - Cookie session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:11:19,752 - api.routes.chat - INFO - Target session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:11:19,874 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:11:19,874 - api.routes.chat - INFO - Existing messages count: 6
+2025-08-04 16:11:19,875 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:11:19,875 - services.assistant.chat - INFO - Processing query: can you show me which all data you have considered...
+2025-08-04 16:11:19,875 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:11:19,954 - services.assistant.chat - INFO - Loaded 6 messages from conversation history
+2025-08-04 16:11:20,052 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:11:20,055 - services.assistant.chat - INFO - Handling general query with LLM: can you show me which all data you have considered...
+2025-08-04 16:11:28,459 - services.assistant.chat - INFO - LLM response generated: 473 characters
+2025-08-04 16:11:28,459 - services.assistant.chat - INFO - Generated response: 473 characters
+2025-08-04 16:11:28,459 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:11:28,459 - api.routes.chat - INFO - Response length: 473
+2025-08-04 16:11:28,459 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:11:28,460 - services.assistant.chat - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:11:28,460 - services.storage.conversation - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:11:28,583 - services.storage.conversation - INFO - Found existing conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0, appending messages
+2025-08-04 16:11:32,113 - services.assistant.chat - INFO - Successfully saved conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:11:32,113 - api.routes.chat - INFO - ✅ Conversation saved successfully: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:11:32,114 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:12:38,181 - api.routes.chat - INFO - Chat endpoint called with message: in your calculation have you taken all the data fo...
+2025-08-04 16:12:38,184 - api.routes.chat - INFO - Request session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:12:38,184 - api.routes.chat - INFO - Cookie session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:12:39,609 - api.routes.chat - INFO - Target session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:12:39,723 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:12:39,723 - api.routes.chat - INFO - Existing messages count: 8
+2025-08-04 16:12:39,723 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:12:39,723 - services.assistant.chat - INFO - Processing query: in your calculation have you taken all the data fo...
+2025-08-04 16:12:39,723 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:12:39,822 - services.assistant.chat - INFO - Loaded 8 messages from conversation history
+2025-08-04 16:12:39,925 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:12:39,927 - services.assistant.chat - INFO - Handling general query with LLM: in your calculation have you taken all the data fo...
+2025-08-04 16:12:46,935 - services.assistant.chat - INFO - LLM response generated: 112 characters
+2025-08-04 16:12:46,935 - services.assistant.chat - INFO - Generated response: 112 characters
+2025-08-04 16:12:46,936 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:12:46,936 - api.routes.chat - INFO - Response length: 112
+2025-08-04 16:12:46,936 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:12:46,936 - services.assistant.chat - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:12:46,936 - services.storage.conversation - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:12:47,035 - services.storage.conversation - INFO - Found existing conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0, appending messages
+2025-08-04 16:12:53,496 - services.assistant.chat - INFO - Successfully saved conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:12:53,496 - api.routes.chat - INFO - ✅ Conversation saved successfully: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:12:53,497 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:13:14,035 - api.routes.chat - INFO - Chat endpoint called with message: show me the calculation please ...
+2025-08-04 16:13:14,036 - api.routes.chat - INFO - Request session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:13:14,036 - api.routes.chat - INFO - Cookie session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:13:15,093 - api.routes.chat - INFO - Target session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:13:15,173 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:13:15,173 - api.routes.chat - INFO - Existing messages count: 10
+2025-08-04 16:13:15,173 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:13:15,173 - services.assistant.chat - INFO - Processing query: show me the calculation please ...
+2025-08-04 16:13:15,173 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:13:15,257 - services.assistant.chat - INFO - Loaded 10 messages from conversation history
+2025-08-04 16:13:15,361 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:13:15,364 - services.assistant.chat - INFO - Handling general query with LLM: show me the calculation please ...
+2025-08-04 16:13:24,400 - services.assistant.chat - INFO - LLM response generated: 401 characters
+2025-08-04 16:13:24,400 - services.assistant.chat - INFO - Generated response: 401 characters
+2025-08-04 16:13:24,401 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:13:24,401 - api.routes.chat - INFO - Response length: 401
+2025-08-04 16:13:24,401 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:13:24,401 - services.assistant.chat - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:13:24,401 - services.storage.conversation - INFO - Saving conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0 with 2 messages
+2025-08-04 16:13:24,546 - services.storage.conversation - INFO - Found existing conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0, appending messages
+2025-08-04 16:13:27,896 - services.assistant.chat - INFO - Successfully saved conversation for session bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:13:27,896 - api.routes.chat - INFO - ✅ Conversation saved successfully: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:13:27,897 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:23:30,664 - api.routes.chat - INFO - Chat endpoint called with message: Add all Revenue Onsite for Quarter "Q4'25" and sho...
+2025-08-04 16:23:30,665 - api.routes.chat - INFO - Request session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:23:30,665 - api.routes.chat - INFO - Cookie session_id: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:23:31,572 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: a151fc29-1ce0-419b-9fb5-b47578202f22, Cookie: bd289310-dcdf-4de2-ba93-3080ca5c1de0
+2025-08-04 16:23:31,573 - api.routes.chat - INFO - Target session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:23:31,689 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 16:23:31,689 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 16:23:31,689 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:23:31,689 - services.assistant.chat - INFO - Processing query: Add all Revenue Onsite for Quarter "Q4'25" and sho...
+2025-08-04 16:23:31,689 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:23:31,857 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:23:31,861 - services.assistant.chat - INFO - Handling general query with LLM: Add all Revenue Onsite for Quarter "Q4'25" and sho...
+2025-08-04 16:23:38,217 - services.assistant.chat - INFO - LLM response generated: 48 characters
+2025-08-04 16:23:38,218 - services.assistant.chat - INFO - Generated response: 48 characters
+2025-08-04 16:23:38,218 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:23:38,218 - api.routes.chat - INFO - Response length: 48
+2025-08-04 16:23:38,218 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:23:38,218 - services.assistant.chat - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:23:38,218 - services.storage.conversation - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:23:38,662 - services.assistant.chat - INFO - Successfully saved conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:23:38,662 - api.routes.chat - INFO - ✅ Conversation saved successfully: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:23:38,662 - api.routes.chat - INFO - Setting session cookie: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:23:38,663 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:25:29,798 - api.routes.chat - INFO - Chat endpoint called with message: show me the list of data you added...
+2025-08-04 16:25:29,799 - api.routes.chat - INFO - Request session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:25:29,799 - api.routes.chat - INFO - Cookie session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:25:31,514 - api.routes.chat - INFO - Target session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:25:31,634 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:25:31,634 - api.routes.chat - INFO - Existing messages count: 2
+2025-08-04 16:25:31,634 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:25:31,635 - services.assistant.chat - INFO - Processing query: show me the list of data you added...
+2025-08-04 16:25:31,635 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:25:31,731 - services.assistant.chat - INFO - Loaded 2 messages from conversation history
+2025-08-04 16:25:31,828 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:25:31,830 - services.assistant.chat - INFO - Handling general query with LLM: show me the list of data you added...
+2025-08-04 16:25:41,179 - services.assistant.chat - INFO - LLM response generated: 405 characters
+2025-08-04 16:25:41,179 - services.assistant.chat - INFO - Generated response: 405 characters
+2025-08-04 16:25:41,180 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:25:41,180 - api.routes.chat - INFO - Response length: 405
+2025-08-04 16:25:41,180 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:25:41,180 - services.assistant.chat - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:25:41,180 - services.storage.conversation - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:25:41,273 - services.storage.conversation - INFO - Found existing conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22, appending messages
+2025-08-04 16:25:44,231 - services.assistant.chat - INFO - Successfully saved conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:25:44,232 - api.routes.chat - INFO - ✅ Conversation saved successfully: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:25:44,232 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:27:34,181 - api.routes.chat - INFO - Chat endpoint called with message: take your time, get data from all docs and show me...
+2025-08-04 16:27:34,182 - api.routes.chat - INFO - Request session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:27:34,182 - api.routes.chat - INFO - Cookie session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:27:35,850 - api.routes.chat - INFO - Target session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:27:35,941 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:27:35,942 - api.routes.chat - INFO - Existing messages count: 4
+2025-08-04 16:27:35,942 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:27:35,942 - services.assistant.chat - INFO - Processing query: take your time, get data from all docs and show me...
+2025-08-04 16:27:35,942 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:27:36,028 - services.assistant.chat - INFO - Loaded 4 messages from conversation history
+2025-08-04 16:27:36,128 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:27:36,130 - services.assistant.chat - INFO - Handling general query with LLM: take your time, get data from all docs and show me...
+2025-08-04 16:27:47,903 - services.assistant.chat - INFO - LLM response generated: 535 characters
+2025-08-04 16:27:47,904 - services.assistant.chat - INFO - Generated response: 535 characters
+2025-08-04 16:27:47,904 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:27:47,904 - api.routes.chat - INFO - Response length: 535
+2025-08-04 16:27:47,905 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:27:47,905 - services.assistant.chat - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:27:47,905 - services.storage.conversation - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:27:47,991 - services.storage.conversation - INFO - Found existing conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22, appending messages
+2025-08-04 16:27:50,925 - services.assistant.chat - INFO - Successfully saved conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:27:50,925 - api.routes.chat - INFO - ✅ Conversation saved successfully: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:27:50,926 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:40:26,273 - api.routes.chat - INFO - Chat endpoint called with message: You are a financial data assistant.  Given a datas...
+2025-08-04 16:40:26,274 - api.routes.chat - INFO - Request session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:40:26,274 - api.routes.chat - INFO - Cookie session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:40:28,365 - api.routes.chat - INFO - Target session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:40:28,452 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:40:28,452 - api.routes.chat - INFO - Existing messages count: 6
+2025-08-04 16:40:28,452 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:40:28,453 - services.assistant.chat - INFO - Processing query: You are a financial data assistant.  Given a datas...
+2025-08-04 16:40:28,453 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:40:28,561 - services.assistant.chat - INFO - Loaded 6 messages from conversation history
+2025-08-04 16:40:28,647 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:40:28,652 - services.assistant.chat - INFO - Handling general query with LLM: You are a financial data assistant.  Given a datas...
+2025-08-04 16:40:37,837 - services.assistant.chat - INFO - LLM response generated: 687 characters
+2025-08-04 16:40:37,838 - services.assistant.chat - INFO - Generated response: 687 characters
+2025-08-04 16:40:37,838 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:40:37,838 - api.routes.chat - INFO - Response length: 687
+2025-08-04 16:40:37,838 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:40:37,839 - services.assistant.chat - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:40:37,839 - services.storage.conversation - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:40:37,913 - services.storage.conversation - INFO - Found existing conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22, appending messages
+2025-08-04 16:40:41,449 - services.assistant.chat - INFO - Successfully saved conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:40:41,450 - api.routes.chat - INFO - ✅ Conversation saved successfully: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:40:41,450 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 16:45:31,240 - api.routes.chat - INFO - Chat endpoint called with message: See a breakdown of the revenue by month?...
+2025-08-04 16:45:31,242 - api.routes.chat - INFO - Request session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:45:31,242 - api.routes.chat - INFO - Cookie session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:45:32,990 - api.routes.chat - INFO - Target session_id: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:45:33,069 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 16:45:33,069 - api.routes.chat - INFO - Existing messages count: 8
+2025-08-04 16:45:33,070 - api.routes.chat - INFO - Generating response...
+2025-08-04 16:45:33,070 - services.assistant.chat - INFO - Processing query: See a breakdown of the revenue by month?...
+2025-08-04 16:45:33,070 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 16:45:33,146 - services.assistant.chat - INFO - Loaded 8 messages from conversation history
+2025-08-04 16:45:33,242 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 16:45:33,244 - services.assistant.chat - INFO - Handling general query with LLM: See a breakdown of the revenue by month?...
+2025-08-04 16:45:41,371 - services.assistant.chat - INFO - LLM response generated: 310 characters
+2025-08-04 16:45:41,371 - services.assistant.chat - INFO - Generated response: 310 characters
+2025-08-04 16:45:41,371 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 16:45:41,371 - api.routes.chat - INFO - Response length: 310
+2025-08-04 16:45:41,371 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 16:45:41,372 - services.assistant.chat - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:45:41,372 - services.storage.conversation - INFO - Saving conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22 with 2 messages
+2025-08-04 16:45:41,472 - services.storage.conversation - INFO - Found existing conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22, appending messages
+2025-08-04 16:45:44,622 - services.assistant.chat - INFO - Successfully saved conversation for session a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:45:44,622 - api.routes.chat - INFO - ✅ Conversation saved successfully: a151fc29-1ce0-419b-9fb5-b47578202f22
+2025-08-04 16:45:44,622 - api.routes.chat - INFO - Chat endpoint completed successfully

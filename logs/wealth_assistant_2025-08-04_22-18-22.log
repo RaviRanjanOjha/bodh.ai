@@ -1,0 +1,93 @@
+2025-08-04 22:18:22,215 - root - INFO - Logging configured successfully
+2025-08-04 22:19:11,398 - api.routes.chat - INFO - Chat endpoint called with message: what is the total T&M revenue in Q4 25 across all ...
+2025-08-04 22:19:11,399 - api.routes.chat - INFO - Request session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:19:11,399 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 22:19:12,028 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f, Cookie: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 22:19:12,029 - api.routes.chat - INFO - Target session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:19:12,063 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 22:19:12,064 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 22:19:12,064 - api.routes.chat - INFO - Generating response...
+2025-08-04 22:19:12,064 - services.assistant.chat - INFO - Processing query: what is the total T&M revenue in Q4 25 across all ...
+2025-08-04 22:19:12,065 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 22:19:12,138 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 22:19:12,140 - services.assistant.chat - INFO - Handling general query with LLM: what is the total T&M revenue in Q4 25 across all ...
+2025-08-04 22:19:19,424 - services.assistant.chat - INFO - LLM response generated: 301 characters
+2025-08-04 22:19:19,425 - services.assistant.chat - INFO - Generated response: 301 characters
+2025-08-04 22:19:19,425 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 22:19:19,425 - api.routes.chat - INFO - Response length: 301
+2025-08-04 22:19:19,425 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 22:19:19,425 - services.assistant.chat - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:19:19,425 - services.storage.conversation - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:19:19,555 - services.assistant.chat - INFO - Successfully saved conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:19:19,555 - api.routes.chat - INFO - ✅ Conversation saved successfully: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:19:19,555 - api.routes.chat - INFO - Setting session cookie: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:19:19,555 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 22:21:42,151 - api.routes.chat - INFO - Chat endpoint called with message: Compare fixed vs T&M revenue for DEA-D-4001 in FY2...
+2025-08-04 22:21:42,152 - api.routes.chat - INFO - Request session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:21:42,152 - api.routes.chat - INFO - Cookie session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:21:43,194 - api.routes.chat - INFO - Target session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:21:43,309 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 22:21:43,310 - api.routes.chat - INFO - Existing messages count: 2
+2025-08-04 22:21:43,310 - api.routes.chat - INFO - Generating response...
+2025-08-04 22:21:43,310 - services.assistant.chat - INFO - Processing query: Compare fixed vs T&M revenue for DEA-D-4001 in FY2...
+2025-08-04 22:21:43,310 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 22:21:43,385 - services.assistant.chat - INFO - Loaded 2 messages from conversation history
+2025-08-04 22:21:43,445 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 22:21:43,447 - services.assistant.chat - INFO - Handling general query with LLM: Compare fixed vs T&M revenue for DEA-D-4001 in FY2...
+2025-08-04 22:21:52,411 - services.assistant.chat - INFO - LLM response generated: 553 characters
+2025-08-04 22:21:52,412 - services.assistant.chat - INFO - Generated response: 553 characters
+2025-08-04 22:21:52,413 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 22:21:52,413 - api.routes.chat - INFO - Response length: 553
+2025-08-04 22:21:52,413 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 22:21:52,413 - services.assistant.chat - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:21:52,413 - services.storage.conversation - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:21:52,448 - services.storage.conversation - INFO - Found existing conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f, appending messages
+2025-08-04 22:21:54,917 - services.assistant.chat - INFO - Successfully saved conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:21:54,917 - api.routes.chat - INFO - ✅ Conversation saved successfully: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:21:54,917 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 22:23:25,925 - api.routes.chat - INFO - Chat endpoint called with message: Show quarterly revenue for DEA-D-4001 broken down ...
+2025-08-04 22:23:25,925 - api.routes.chat - INFO - Request session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:23:25,925 - api.routes.chat - INFO - Cookie session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:23:26,532 - api.routes.chat - INFO - Target session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:23:26,567 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 22:23:26,567 - api.routes.chat - INFO - Existing messages count: 4
+2025-08-04 22:23:26,567 - api.routes.chat - INFO - Generating response...
+2025-08-04 22:23:26,567 - services.assistant.chat - INFO - Processing query: Show quarterly revenue for DEA-D-4001 broken down ...
+2025-08-04 22:23:26,567 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 22:23:26,604 - services.assistant.chat - INFO - Loaded 4 messages from conversation history
+2025-08-04 22:23:26,641 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 22:23:26,642 - services.assistant.chat - INFO - Handling general query with LLM: Show quarterly revenue for DEA-D-4001 broken down ...
+2025-08-04 22:23:35,486 - services.assistant.chat - INFO - LLM response generated: 705 characters
+2025-08-04 22:23:35,487 - services.assistant.chat - INFO - Generated response: 705 characters
+2025-08-04 22:23:35,487 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 22:23:35,487 - api.routes.chat - INFO - Response length: 705
+2025-08-04 22:23:35,487 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 22:23:35,487 - services.assistant.chat - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:23:35,487 - services.storage.conversation - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:23:35,523 - services.storage.conversation - INFO - Found existing conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f, appending messages
+2025-08-04 22:23:38,223 - services.assistant.chat - INFO - Successfully saved conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:23:38,224 - api.routes.chat - INFO - ✅ Conversation saved successfully: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:23:38,224 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 22:24:48,552 - api.routes.chat - INFO - Chat endpoint called with message: List all revenue entries for Q4 25 for IBU DEA-D-4...
+2025-08-04 22:24:48,553 - api.routes.chat - INFO - Request session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:24:48,553 - api.routes.chat - INFO - Cookie session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:24:49,200 - api.routes.chat - INFO - Target session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:24:49,239 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 22:24:49,240 - api.routes.chat - INFO - Existing messages count: 6
+2025-08-04 22:24:49,240 - api.routes.chat - INFO - Generating response...
+2025-08-04 22:24:49,240 - services.assistant.chat - INFO - Processing query: List all revenue entries for Q4 25 for IBU DEA-D-4...
+2025-08-04 22:24:49,240 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 22:24:49,280 - services.assistant.chat - INFO - Loaded 6 messages from conversation history
+2025-08-04 22:24:49,316 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 22:24:49,319 - services.assistant.chat - INFO - Handling general query with LLM: List all revenue entries for Q4 25 for IBU DEA-D-4...
+2025-08-04 22:24:59,289 - services.assistant.chat - INFO - LLM response generated: 875 characters
+2025-08-04 22:24:59,289 - services.assistant.chat - INFO - Generated response: 875 characters
+2025-08-04 22:24:59,289 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 22:24:59,289 - api.routes.chat - INFO - Response length: 875
+2025-08-04 22:24:59,289 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 22:24:59,290 - services.assistant.chat - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:24:59,290 - services.storage.conversation - INFO - Saving conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f with 2 messages
+2025-08-04 22:24:59,348 - services.storage.conversation - INFO - Found existing conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f, appending messages
+2025-08-04 22:25:01,909 - services.assistant.chat - INFO - Successfully saved conversation for session 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:25:01,910 - api.routes.chat - INFO - ✅ Conversation saved successfully: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-04 22:25:01,910 - api.routes.chat - INFO - Chat endpoint completed successfully

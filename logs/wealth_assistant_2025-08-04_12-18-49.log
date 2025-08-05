@@ -1,0 +1,367 @@
+2025-08-04 12:18:49,768 - root - INFO - Logging configured successfully
+2025-08-04 12:19:28,784 - api.routes.chat - INFO - Chat endpoint called with message: list down all the columns...
+2025-08-04 12:19:28,785 - api.routes.chat - INFO - Request session_id: 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10
+2025-08-04 12:19:28,785 - api.routes.chat - INFO - Cookie session_id: d0971fb5-f716-49ee-acd3-9ac9c27f3656
+2025-08-04 12:19:29,397 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10, Cookie: d0971fb5-f716-49ee-acd3-9ac9c27f3656
+2025-08-04 12:19:29,397 - api.routes.chat - INFO - Target session_id: 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10
+2025-08-04 12:19:29,440 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 12:19:29,440 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 12:19:29,441 - api.routes.chat - INFO - Generating response...
+2025-08-04 12:19:29,441 - services.assistant.chat - INFO - Processing query: list down all the columns...
+2025-08-04 12:19:29,442 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 12:19:29,512 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 12:19:29,514 - services.assistant.chat - INFO - Handling general query with LLM: list down all the columns...
+2025-08-04 12:19:34,377 - services.assistant.chat - INFO - LLM response generated: 86 characters
+2025-08-04 12:19:34,377 - services.assistant.chat - INFO - Generated response: 86 characters
+2025-08-04 12:19:34,377 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 12:19:34,378 - api.routes.chat - INFO - Response length: 86
+2025-08-04 12:19:34,378 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 12:19:34,378 - services.assistant.chat - INFO - Saving conversation for session 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10 with 2 messages
+2025-08-04 12:19:34,378 - services.storage.conversation - INFO - Saving conversation for session 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10 with 2 messages
+2025-08-04 12:19:34,481 - services.assistant.chat - INFO - Successfully saved conversation for session 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10
+2025-08-04 12:19:34,481 - api.routes.chat - INFO - ✅ Conversation saved successfully: 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10
+2025-08-04 12:19:34,481 - api.routes.chat - INFO - Setting session cookie: 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10
+2025-08-04 12:19:34,481 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 12:34:32,790 - api.routes.chat - INFO - Chat endpoint called with message: list down all the columns...
+2025-08-04 12:34:32,792 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:34:32,792 - api.routes.chat - INFO - Cookie session_id: 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10
+2025-08-04 12:34:36,067 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: d0e030ce-6e67-4246-b6d3-025a3e55df01, Cookie: 3c8e8b0a-6299-4ecb-bf56-ca2c512abd10
+2025-08-04 12:34:36,068 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:34:36,111 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 12:34:36,112 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 12:34:36,112 - api.routes.chat - INFO - Generating response...
+2025-08-04 12:34:36,112 - services.assistant.chat - INFO - Processing query: list down all the columns...
+2025-08-04 12:34:36,112 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 12:34:36,334 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 12:34:36,336 - services.assistant.chat - INFO - Handling general query with LLM: list down all the columns...
+2025-08-04 12:37:24,601 - services.assistant.chat - INFO - LLM response generated: 324 characters
+2025-08-04 12:37:24,602 - services.assistant.chat - INFO - Generated response: 324 characters
+2025-08-04 12:37:24,602 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 12:37:24,603 - api.routes.chat - INFO - Response length: 324
+2025-08-04 12:37:24,603 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 12:37:24,603 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 12:37:24,603 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 12:37:24,718 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:37:24,719 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:37:24,719 - api.routes.chat - INFO - Setting session cookie: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:37:24,719 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 12:48:53,289 - api.routes.chat - INFO - Chat endpoint called with message: list down all Source System...
+2025-08-04 12:48:53,289 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:48:53,290 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:48:55,096 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:48:55,130 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 12:48:55,130 - api.routes.chat - INFO - Existing messages count: 2
+2025-08-04 12:48:55,130 - api.routes.chat - INFO - Generating response...
+2025-08-04 12:48:55,130 - services.assistant.chat - INFO - Processing query: list down all Source System...
+2025-08-04 12:48:55,131 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 12:48:55,178 - services.assistant.chat - INFO - Loaded 2 messages from conversation history
+2025-08-04 12:48:55,211 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 12:48:55,217 - services.assistant.chat - INFO - Handling general query with LLM: list down all Source System...
+2025-08-04 12:49:49,778 - services.assistant.chat - INFO - LLM response generated: 58 characters
+2025-08-04 12:49:49,780 - services.assistant.chat - INFO - Generated response: 58 characters
+2025-08-04 12:49:49,780 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 12:49:49,780 - api.routes.chat - INFO - Response length: 58
+2025-08-04 12:49:49,780 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 12:49:49,780 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 12:49:49,780 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 12:49:49,814 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 12:49:49,923 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:49:49,924 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 12:49:49,924 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 13:06:39,171 - api.routes.chat - INFO - Chat endpoint called with message: this is not correct, show me complete list...
+2025-08-04 13:06:39,172 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:06:39,172 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:06:39,829 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:06:39,863 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 13:06:39,863 - api.routes.chat - INFO - Existing messages count: 4
+2025-08-04 13:06:39,864 - api.routes.chat - INFO - Generating response...
+2025-08-04 13:06:39,864 - services.assistant.chat - INFO - Processing query: this is not correct, show me complete list...
+2025-08-04 13:06:39,864 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 13:06:39,898 - services.assistant.chat - INFO - Loaded 4 messages from conversation history
+2025-08-04 13:06:39,932 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 13:06:39,937 - services.assistant.chat - INFO - Handling general query with LLM: this is not correct, show me complete list...
+2025-08-04 13:07:40,496 - services.assistant.chat - INFO - LLM response generated: 354 characters
+2025-08-04 13:07:40,497 - services.assistant.chat - INFO - Generated response: 354 characters
+2025-08-04 13:07:40,497 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 13:07:40,497 - api.routes.chat - INFO - Response length: 354
+2025-08-04 13:07:40,497 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 13:07:40,498 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:07:40,498 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:07:40,547 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 13:07:40,670 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:07:40,671 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:07:40,671 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 13:18:58,261 - api.routes.chat - INFO - Chat endpoint called with message: show list of Project ID ...
+2025-08-04 13:18:58,263 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:18:58,263 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:18:58,919 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:18:58,955 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 13:18:58,955 - api.routes.chat - INFO - Existing messages count: 6
+2025-08-04 13:18:58,956 - api.routes.chat - INFO - Generating response...
+2025-08-04 13:18:58,956 - services.assistant.chat - INFO - Processing query: show list of Project ID ...
+2025-08-04 13:18:58,956 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 13:18:58,992 - services.assistant.chat - INFO - Loaded 6 messages from conversation history
+2025-08-04 13:18:59,027 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 13:18:59,034 - services.assistant.chat - INFO - Handling general query with LLM: show list of Project ID ...
+2025-08-04 13:21:41,116 - services.assistant.chat - INFO - LLM response generated: 3198 characters
+2025-08-04 13:21:41,117 - services.assistant.chat - INFO - Generated response: 3198 characters
+2025-08-04 13:21:41,118 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 13:21:41,118 - api.routes.chat - INFO - Response length: 3198
+2025-08-04 13:21:41,118 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 13:21:41,118 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:21:41,118 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:21:41,152 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 13:21:41,267 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:21:41,268 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:21:41,268 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 13:24:57,226 - api.routes.chat - INFO - Chat endpoint called with message: Total  Revenue Offshore for Quarter "Q4'25" ?...
+2025-08-04 13:24:57,228 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:24:57,228 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:24:57,884 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:24:57,917 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 13:24:57,917 - api.routes.chat - INFO - Existing messages count: 8
+2025-08-04 13:24:57,918 - api.routes.chat - INFO - Generating response...
+2025-08-04 13:24:57,918 - services.assistant.chat - INFO - Processing query: Total  Revenue Offshore for Quarter "Q4'25" ?...
+2025-08-04 13:24:57,918 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 13:24:57,952 - services.assistant.chat - INFO - Loaded 8 messages from conversation history
+2025-08-04 13:24:57,987 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 13:24:57,990 - services.assistant.chat - INFO - Handling general query with LLM: Total  Revenue Offshore for Quarter "Q4'25" ?...
+2025-08-04 13:25:48,111 - services.assistant.chat - INFO - LLM response generated: 267 characters
+2025-08-04 13:25:48,112 - services.assistant.chat - INFO - Generated response: 267 characters
+2025-08-04 13:25:48,112 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 13:25:48,112 - api.routes.chat - INFO - Response length: 267
+2025-08-04 13:25:48,112 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 13:25:48,112 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:25:48,113 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:25:48,151 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 13:25:48,264 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:25:48,264 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:25:48,264 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 13:27:16,739 - api.routes.chat - INFO - Chat endpoint called with message: there is single value, but add all the data for Re...
+2025-08-04 13:27:16,741 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:27:16,741 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:27:17,413 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:27:17,455 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 13:27:17,456 - api.routes.chat - INFO - Existing messages count: 10
+2025-08-04 13:27:17,456 - api.routes.chat - INFO - Generating response...
+2025-08-04 13:27:17,456 - services.assistant.chat - INFO - Processing query: there is single value, but add all the data for Re...
+2025-08-04 13:27:17,456 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 13:27:17,496 - services.assistant.chat - INFO - Loaded 10 messages from conversation history
+2025-08-04 13:27:17,531 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 13:27:17,534 - services.assistant.chat - INFO - Handling general query with LLM: there is single value, but add all the data for Re...
+2025-08-04 13:28:05,023 - services.assistant.chat - INFO - LLM response generated: 411 characters
+2025-08-04 13:28:05,023 - services.assistant.chat - INFO - Generated response: 411 characters
+2025-08-04 13:28:05,023 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 13:28:05,023 - api.routes.chat - INFO - Response length: 411
+2025-08-04 13:28:05,024 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 13:28:05,024 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:28:05,024 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:28:05,091 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 13:28:55,863 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:28:55,864 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:28:55,864 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 13:38:15,259 - api.routes.chat - INFO - Chat endpoint called with message:  Revenue Total for Parent Project ID "Y.IN2301702"...
+2025-08-04 13:38:15,260 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:38:15,260 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:38:16,124 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:38:16,177 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 13:38:16,177 - api.routes.chat - INFO - Existing messages count: 12
+2025-08-04 13:38:16,177 - api.routes.chat - INFO - Generating response...
+2025-08-04 13:38:16,177 - services.assistant.chat - INFO - Processing query:  Revenue Total for Parent Project ID "Y.IN2301702"...
+2025-08-04 13:38:16,177 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 13:38:16,213 - services.assistant.chat - INFO - Loaded 12 messages from conversation history
+2025-08-04 13:38:16,248 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 13:38:16,251 - services.assistant.chat - INFO - Handling general query with LLM:  Revenue Total for Parent Project ID "Y.IN2301702"...
+2025-08-04 13:39:15,857 - services.assistant.chat - INFO - LLM response generated: 253 characters
+2025-08-04 13:39:15,858 - services.assistant.chat - INFO - Generated response: 253 characters
+2025-08-04 13:39:15,858 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 13:39:15,858 - api.routes.chat - INFO - Response length: 253
+2025-08-04 13:39:15,858 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 13:39:15,858 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:39:15,858 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:39:15,891 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 13:40:11,101 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:40:11,102 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:40:11,103 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 13:41:41,236 - api.routes.chat - INFO - Chat endpoint called with message: it has data. show all the data for Revenue Total f...
+2025-08-04 13:41:41,237 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:41:41,237 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:41:41,900 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:41:41,937 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 13:41:41,937 - api.routes.chat - INFO - Existing messages count: 14
+2025-08-04 13:41:41,938 - api.routes.chat - INFO - Generating response...
+2025-08-04 13:41:41,938 - services.assistant.chat - INFO - Processing query: it has data. show all the data for Revenue Total f...
+2025-08-04 13:41:41,938 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 13:41:41,973 - services.assistant.chat - INFO - Loaded 14 messages from conversation history
+2025-08-04 13:41:42,007 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 13:41:42,009 - services.assistant.chat - INFO - Handling general query with LLM: it has data. show all the data for Revenue Total f...
+2025-08-04 13:42:35,177 - services.assistant.chat - INFO - LLM response generated: 261 characters
+2025-08-04 13:42:35,178 - services.assistant.chat - INFO - Generated response: 261 characters
+2025-08-04 13:42:35,179 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 13:42:35,179 - api.routes.chat - INFO - Response length: 261
+2025-08-04 13:42:35,179 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 13:42:35,179 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:42:35,179 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:42:35,262 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 13:43:38,332 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:43:38,332 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:43:38,333 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 13:45:22,329 - api.routes.chat - INFO - Chat endpoint called with message: Please give me total revenue for Project ID "Y.IN2...
+2025-08-04 13:45:22,330 - api.routes.chat - INFO - Request session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:45:22,331 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:45:23,017 - api.routes.chat - INFO - Target session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:45:23,083 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 13:45:23,084 - api.routes.chat - INFO - Existing messages count: 16
+2025-08-04 13:45:23,084 - api.routes.chat - INFO - Generating response...
+2025-08-04 13:45:23,084 - services.assistant.chat - INFO - Processing query: Please give me total revenue for Project ID "Y.IN2...
+2025-08-04 13:45:23,084 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 13:45:23,124 - services.assistant.chat - INFO - Loaded 16 messages from conversation history
+2025-08-04 13:45:23,160 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 13:45:23,162 - services.assistant.chat - INFO - Handling general query with LLM: Please give me total revenue for Project ID "Y.IN2...
+2025-08-04 13:46:24,347 - services.assistant.chat - INFO - LLM response generated: 248 characters
+2025-08-04 13:46:24,347 - services.assistant.chat - INFO - Generated response: 248 characters
+2025-08-04 13:46:24,348 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 13:46:24,348 - api.routes.chat - INFO - Response length: 248
+2025-08-04 13:46:24,348 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 13:46:24,348 - services.assistant.chat - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:46:24,348 - services.storage.conversation - INFO - Saving conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01 with 2 messages
+2025-08-04 13:46:24,388 - services.storage.conversation - INFO - Found existing conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01, appending messages
+2025-08-04 13:47:34,760 - services.assistant.chat - INFO - Successfully saved conversation for session d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:47:34,761 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 13:47:34,762 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 15:09:27,705 - api.routes.faq - ERROR - FAQ generation failed: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/api/routes/faq.py", line 118, in get_faqs
+    for convo in cursor:
+                 ^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1264, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1155, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1823, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1766, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 573, in _check_implicit_session_support
+    self._check_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 589, in _check_session_support
+    self._select_servers_loop(
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 259, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-08-04 15:23:27,673 - api.routes.faq - ERROR - FAQ generation failed: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/api/routes/faq.py", line 118, in get_faqs
+    for convo in cursor:
+                 ^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1264, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1155, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1823, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1766, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 573, in _check_implicit_session_support
+    self._check_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 589, in _check_session_support
+    self._select_servers_loop(
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 259, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-08-04 15:50:55,386 - api.routes.faq - ERROR - FAQ generation failed: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/api/routes/faq.py", line 118, in get_faqs
+    for convo in cursor:
+                 ^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1264, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1155, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1823, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1766, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 573, in _check_implicit_session_support
+    self._check_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 589, in _check_session_support
+    self._select_servers_loop(
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 259, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-08-04 15:52:31,711 - api.routes.chat - INFO - Chat endpoint called with message: add  Revenue Onsite data and show final result for...
+2025-08-04 15:52:31,712 - api.routes.chat - INFO - Request session_id: d9723ddb-07c4-4898-b7e8-af4685d64c59
+2025-08-04 15:52:31,713 - api.routes.chat - INFO - Cookie session_id: d0e030ce-6e67-4246-b6d3-025a3e55df01
+2025-08-04 15:53:02,591 - api.routes.chat - ERROR - Error in chat endpoint
+Traceback (most recent call last):
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/api/routes/chat.py", line 132, in chat_endpoint
+    chat_service = ChatService()
+                   ^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/services/assistant/chat.py", line 32, in __init__
+    self.conversation_store = ConversationStore(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/services/storage/conversation.py", line 31, in __init__
+    self.conversations.create_index("session_id", unique=True)
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/collection.py", line 2136, in create_index
+    return self.__create_indexes([index], session, **cmd_options)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/_csot.py", line 107, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/collection.py", line 1988, in __create_indexes
+    with self._conn_for_writes(session) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/collection.py", line 263, in _conn_for_writes
+    return self.__database.client._conn_for_writes(session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1313, in _conn_for_writes
+    server = self._select_server(writable_server_selector, session)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1303, in _select_server
+    server = topology.select_server(server_selector)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 302, in select_server
+    server = self._select_server(selector, server_selection_timeout, address)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 286, in _select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 237, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 259, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689089e8b9c9e81f0b0321d1, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-08-04 16:00:32,598 - api.routes.faq - ERROR - FAQ generation failed: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/api/routes/faq.py", line 118, in get_faqs
+    for convo in cursor:
+                 ^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1264, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/cursor.py", line 1155, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1823, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/mongo_client.py", line 1766, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 573, in _check_implicit_session_support
+    self._check_session_support()
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 589, in _check_session_support
+    self._select_servers_loop(
+  File "/Users/raviranjanojha/Documents/bodhAI-gitlink/bodhAI/Backend/.venv/lib/python3.12/site-packages/pymongo/topology.py", line 259, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 689057d1b9c9e81f0b031020, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-08-04 16:01:05,802 - services.assistant.documents - ERROR - Processing failed for CompactPNL (2)(PNL Base Data).xlsx: Failed to process Excel file /var/folders/6g/14dzpnmx1rv7dtfb9y9z2vpr0000gn/T/tmp83jq9dix.pdf: SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68908bc8b9c9e81f0b0321d9, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-yep78ke-shard-00-00.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-00.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-01.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-01.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-yep78ke-shard-00-02.n06okeo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-yep78ke-shard-00-02.n06okeo.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>

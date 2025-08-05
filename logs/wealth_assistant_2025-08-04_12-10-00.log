@@ -1,0 +1,24 @@
+2025-08-04 12:10:00,873 - root - INFO - Logging configured successfully
+2025-08-04 12:11:44,296 - api.routes.chat - INFO - Chat endpoint called with message: list down all the columns...
+2025-08-04 12:11:44,297 - api.routes.chat - INFO - Request session_id: d0971fb5-f716-49ee-acd3-9ac9c27f3656
+2025-08-04 12:11:44,297 - api.routes.chat - INFO - Cookie session_id: 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d
+2025-08-04 12:11:45,141 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: d0971fb5-f716-49ee-acd3-9ac9c27f3656, Cookie: 3a43ed2a-800e-4a5b-bc20-b6d96b7c641d
+2025-08-04 12:11:45,142 - api.routes.chat - INFO - Target session_id: d0971fb5-f716-49ee-acd3-9ac9c27f3656
+2025-08-04 12:11:45,191 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 12:11:45,191 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 12:11:45,191 - api.routes.chat - INFO - Generating response...
+2025-08-04 12:11:45,192 - services.assistant.chat - INFO - Processing query: list down all the columns...
+2025-08-04 12:11:45,192 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 12:11:45,271 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 12:11:45,275 - services.assistant.chat - INFO - Handling general query with LLM: list down all the columns...
+2025-08-04 12:12:12,625 - services.assistant.chat - INFO - LLM response generated: 135 characters
+2025-08-04 12:12:12,626 - services.assistant.chat - INFO - Generated response: 135 characters
+2025-08-04 12:12:12,626 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 12:12:12,626 - api.routes.chat - INFO - Response length: 135
+2025-08-04 12:12:12,626 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 12:12:12,626 - services.assistant.chat - INFO - Saving conversation for session d0971fb5-f716-49ee-acd3-9ac9c27f3656 with 2 messages
+2025-08-04 12:12:12,626 - services.storage.conversation - INFO - Saving conversation for session d0971fb5-f716-49ee-acd3-9ac9c27f3656 with 2 messages
+2025-08-04 12:12:12,757 - services.assistant.chat - INFO - Successfully saved conversation for session d0971fb5-f716-49ee-acd3-9ac9c27f3656
+2025-08-04 12:12:12,757 - api.routes.chat - INFO - ✅ Conversation saved successfully: d0971fb5-f716-49ee-acd3-9ac9c27f3656
+2025-08-04 12:12:12,757 - api.routes.chat - INFO - Setting session cookie: d0971fb5-f716-49ee-acd3-9ac9c27f3656
+2025-08-04 12:12:12,758 - api.routes.chat - INFO - Chat endpoint completed successfully

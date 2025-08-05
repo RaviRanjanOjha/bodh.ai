@@ -1,0 +1,120 @@
+2025-08-05 11:30:20,904 - root - INFO - Logging configured successfully
+2025-08-05 11:31:19,287 - api.routes.chat - INFO - Chat endpoint called with message: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:31:19,287 - api.routes.chat - INFO - Request session_id: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:31:19,288 - api.routes.chat - INFO - Cookie session_id: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-05 11:31:19,905 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 069564ae-333c-44d0-ad17-ac8f5867062e, Cookie: 76466a04-a67e-4a3d-8bfb-1e5dbb39d36f
+2025-08-05 11:31:19,905 - api.routes.chat - INFO - Target session_id: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:31:19,942 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-05 11:31:19,942 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-05 11:31:19,942 - api.routes.chat - INFO - Generating response...
+2025-08-05 11:31:19,942 - services.assistant.chat - INFO - Processing query: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:31:19,943 - services.assistant.chat - INFO - Compliance check passed
+2025-08-05 11:31:20,009 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-05 11:31:20,012 - services.assistant.chat - INFO - Handling general query with LLM: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:31:28,653 - services.assistant.chat - INFO - LLM response generated: 391 characters
+2025-08-05 11:31:28,653 - services.assistant.chat - INFO - Generated response: 391 characters
+2025-08-05 11:31:28,653 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-05 11:31:28,653 - api.routes.chat - INFO - Response length: 391
+2025-08-05 11:31:28,653 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-05 11:31:28,654 - services.assistant.chat - INFO - Saving conversation for session 069564ae-333c-44d0-ad17-ac8f5867062e with 2 messages
+2025-08-05 11:31:28,654 - services.storage.conversation - INFO - Saving conversation for session 069564ae-333c-44d0-ad17-ac8f5867062e with 2 messages
+2025-08-05 11:31:28,763 - services.assistant.chat - INFO - Successfully saved conversation for session 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:31:28,764 - api.routes.chat - INFO - ✅ Conversation saved successfully: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:31:28,764 - api.routes.chat - INFO - Setting session cookie: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:31:28,764 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-05 11:34:06,899 - api.routes.chat - INFO - Chat endpoint called with message: Compare fixed vs T&M revenue for DEA-D-4001 in FY2...
+2025-08-05 11:34:06,899 - api.routes.chat - INFO - Request session_id: 122cb712-8ca9-436c-9ad9-d6653da7ac7c
+2025-08-05 11:34:06,899 - api.routes.chat - INFO - Cookie session_id: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:34:07,544 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 122cb712-8ca9-436c-9ad9-d6653da7ac7c, Cookie: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:34:07,545 - api.routes.chat - INFO - Target session_id: 122cb712-8ca9-436c-9ad9-d6653da7ac7c
+2025-08-05 11:34:07,579 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-05 11:34:07,579 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-05 11:34:07,579 - api.routes.chat - INFO - Generating response...
+2025-08-05 11:34:07,579 - services.assistant.chat - INFO - Processing query: Compare fixed vs T&M revenue for DEA-D-4001 in FY2...
+2025-08-05 11:34:07,579 - services.assistant.chat - INFO - Compliance check passed
+2025-08-05 11:34:07,646 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-05 11:34:07,648 - services.assistant.chat - INFO - Handling general query with LLM: Compare fixed vs T&M revenue for DEA-D-4001 in FY2...
+2025-08-05 11:34:15,905 - services.assistant.chat - INFO - LLM response generated: 455 characters
+2025-08-05 11:34:15,905 - services.assistant.chat - INFO - Generated response: 455 characters
+2025-08-05 11:34:15,905 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-05 11:34:15,906 - api.routes.chat - INFO - Response length: 455
+2025-08-05 11:34:15,906 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-05 11:34:15,906 - services.assistant.chat - INFO - Saving conversation for session 122cb712-8ca9-436c-9ad9-d6653da7ac7c with 2 messages
+2025-08-05 11:34:15,906 - services.storage.conversation - INFO - Saving conversation for session 122cb712-8ca9-436c-9ad9-d6653da7ac7c with 2 messages
+2025-08-05 11:34:16,023 - services.assistant.chat - INFO - Successfully saved conversation for session 122cb712-8ca9-436c-9ad9-d6653da7ac7c
+2025-08-05 11:34:16,023 - api.routes.chat - INFO - ✅ Conversation saved successfully: 122cb712-8ca9-436c-9ad9-d6653da7ac7c
+2025-08-05 11:34:16,024 - api.routes.chat - INFO - Setting session cookie: 122cb712-8ca9-436c-9ad9-d6653da7ac7c
+2025-08-05 11:34:16,024 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-05 11:34:52,316 - api.routes.chat - INFO - Chat endpoint called with message: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:34:52,316 - api.routes.chat - INFO - Request session_id: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:34:52,316 - api.routes.chat - INFO - Cookie session_id: 122cb712-8ca9-436c-9ad9-d6653da7ac7c
+2025-08-05 11:34:52,948 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6, Cookie: 122cb712-8ca9-436c-9ad9-d6653da7ac7c
+2025-08-05 11:34:52,948 - api.routes.chat - INFO - Target session_id: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:34:52,982 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-05 11:34:52,982 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-05 11:34:52,983 - api.routes.chat - INFO - Generating response...
+2025-08-05 11:34:52,983 - services.assistant.chat - INFO - Processing query: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:34:52,983 - services.assistant.chat - INFO - Compliance check passed
+2025-08-05 11:34:53,050 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-05 11:34:53,053 - services.assistant.chat - INFO - Handling general query with LLM: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:35:00,557 - services.assistant.chat - INFO - LLM response generated: 280 characters
+2025-08-05 11:35:00,558 - services.assistant.chat - INFO - Generated response: 280 characters
+2025-08-05 11:35:00,558 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-05 11:35:00,558 - api.routes.chat - INFO - Response length: 280
+2025-08-05 11:35:00,558 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-05 11:35:00,558 - services.assistant.chat - INFO - Saving conversation for session 90e75e65-e3f9-4cd8-aaf1-aa694de059b6 with 2 messages
+2025-08-05 11:35:00,558 - services.storage.conversation - INFO - Saving conversation for session 90e75e65-e3f9-4cd8-aaf1-aa694de059b6 with 2 messages
+2025-08-05 11:35:00,674 - services.assistant.chat - INFO - Successfully saved conversation for session 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:35:00,675 - api.routes.chat - INFO - ✅ Conversation saved successfully: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:35:00,675 - api.routes.chat - INFO - Setting session cookie: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:35:00,676 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-05 11:36:52,494 - api.routes.chat - INFO - Chat endpoint called with message: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:36:52,494 - api.routes.chat - INFO - Request session_id: 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:36:52,494 - api.routes.chat - INFO - Cookie session_id: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:36:53,415 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 3c82800d-4371-4b4a-82d0-f9fc48f05db1, Cookie: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:36:53,416 - api.routes.chat - INFO - Target session_id: 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:36:53,455 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-05 11:36:53,455 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-05 11:36:53,455 - api.routes.chat - INFO - Generating response...
+2025-08-05 11:36:53,455 - services.assistant.chat - INFO - Processing query: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:36:53,456 - services.assistant.chat - INFO - Compliance check passed
+2025-08-05 11:36:53,532 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-05 11:36:53,534 - services.assistant.chat - INFO - Handling general query with LLM: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:37:03,046 - services.assistant.chat - INFO - LLM response generated: 316 characters
+2025-08-05 11:37:03,046 - services.assistant.chat - INFO - Generated response: 316 characters
+2025-08-05 11:37:03,047 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-05 11:37:03,047 - api.routes.chat - INFO - Response length: 316
+2025-08-05 11:37:03,047 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-05 11:37:03,047 - services.assistant.chat - INFO - Saving conversation for session 3c82800d-4371-4b4a-82d0-f9fc48f05db1 with 2 messages
+2025-08-05 11:37:03,047 - services.storage.conversation - INFO - Saving conversation for session 3c82800d-4371-4b4a-82d0-f9fc48f05db1 with 2 messages
+2025-08-05 11:37:03,159 - services.assistant.chat - INFO - Successfully saved conversation for session 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:37:03,159 - api.routes.chat - INFO - ✅ Conversation saved successfully: 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:37:03,160 - api.routes.chat - INFO - Setting session cookie: 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:37:03,160 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-05 11:37:51,305 - api.routes.chat - INFO - Successfully deleted conversation: 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:38:04,987 - api.routes.chat - INFO - Successfully deleted conversation: 90e75e65-e3f9-4cd8-aaf1-aa694de059b6
+2025-08-05 11:38:16,238 - api.routes.chat - INFO - Chat endpoint called with message: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:38:16,238 - api.routes.chat - INFO - Request session_id: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:38:16,238 - api.routes.chat - INFO - Cookie session_id: 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:38:17,362 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 069564ae-333c-44d0-ad17-ac8f5867062e, Cookie: 3c82800d-4371-4b4a-82d0-f9fc48f05db1
+2025-08-05 11:38:17,362 - api.routes.chat - INFO - Target session_id: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:38:17,398 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-05 11:38:17,398 - api.routes.chat - INFO - Existing messages count: 2
+2025-08-05 11:38:17,398 - api.routes.chat - INFO - Generating response...
+2025-08-05 11:38:17,398 - services.assistant.chat - INFO - Processing query: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:38:17,398 - services.assistant.chat - INFO - Compliance check passed
+2025-08-05 11:38:17,432 - services.assistant.chat - INFO - Loaded 2 messages from conversation history
+2025-08-05 11:38:17,464 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-05 11:38:17,465 - services.assistant.chat - INFO - Handling general query with LLM: what is the total T&M revenue in Q4 25 across all ...
+2025-08-05 11:38:26,039 - services.assistant.chat - INFO - LLM response generated: 467 characters
+2025-08-05 11:38:26,039 - services.assistant.chat - INFO - Generated response: 467 characters
+2025-08-05 11:38:26,039 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-05 11:38:26,039 - api.routes.chat - INFO - Response length: 467
+2025-08-05 11:38:26,039 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-05 11:38:26,040 - services.assistant.chat - INFO - Saving conversation for session 069564ae-333c-44d0-ad17-ac8f5867062e with 2 messages
+2025-08-05 11:38:26,040 - services.storage.conversation - INFO - Saving conversation for session 069564ae-333c-44d0-ad17-ac8f5867062e with 2 messages
+2025-08-05 11:38:26,074 - services.storage.conversation - INFO - Found existing conversation for session 069564ae-333c-44d0-ad17-ac8f5867062e, appending messages
+2025-08-05 11:38:28,639 - services.assistant.chat - INFO - Successfully saved conversation for session 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:38:28,639 - api.routes.chat - INFO - ✅ Conversation saved successfully: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:38:28,639 - api.routes.chat - INFO - Setting session cookie: 069564ae-333c-44d0-ad17-ac8f5867062e
+2025-08-05 11:38:28,640 - api.routes.chat - INFO - Chat endpoint completed successfully

@@ -1,0 +1,24 @@
+2025-08-04 19:53:09,963 - root - INFO - Logging configured successfully
+2025-08-04 19:54:07,809 - api.routes.chat - INFO - Chat endpoint called with message: total Revenue Onsite for Quarter "Q4'25"...
+2025-08-04 19:54:07,810 - api.routes.chat - INFO - Request session_id: 5d51d199-7009-4332-ac17-b7800866a186
+2025-08-04 19:54:07,811 - api.routes.chat - INFO - Cookie session_id: 9e69f7c0-e0df-4afa-b05f-21948a453294
+2025-08-04 19:54:08,841 - api.routes.chat - WARNING - Session ID mismatch - cleaning up old cookie. Request: 5d51d199-7009-4332-ac17-b7800866a186, Cookie: 9e69f7c0-e0df-4afa-b05f-21948a453294
+2025-08-04 19:54:08,841 - api.routes.chat - INFO - Target session_id: 5d51d199-7009-4332-ac17-b7800866a186
+2025-08-04 19:54:08,939 - api.routes.chat - INFO - Existing conversation found: False
+2025-08-04 19:54:08,939 - api.routes.chat - INFO - Existing messages count: 0
+2025-08-04 19:54:08,939 - api.routes.chat - INFO - Generating response...
+2025-08-04 19:54:08,939 - services.assistant.chat - INFO - Processing query: total Revenue Onsite for Quarter "Q4'25"...
+2025-08-04 19:54:08,940 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 19:54:09,100 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 19:54:09,101 - services.assistant.chat - INFO - Handling general query with LLM: total Revenue Onsite for Quarter "Q4'25"...
+2025-08-04 19:54:15,978 - services.assistant.chat - INFO - LLM response generated: 196 characters
+2025-08-04 19:54:15,978 - services.assistant.chat - INFO - Generated response: 196 characters
+2025-08-04 19:54:15,978 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 19:54:15,979 - api.routes.chat - INFO - Response length: 196
+2025-08-04 19:54:15,979 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 19:54:15,979 - services.assistant.chat - INFO - Saving conversation for session 5d51d199-7009-4332-ac17-b7800866a186 with 2 messages
+2025-08-04 19:54:15,979 - services.storage.conversation - INFO - Saving conversation for session 5d51d199-7009-4332-ac17-b7800866a186 with 2 messages
+2025-08-04 19:54:16,260 - services.assistant.chat - INFO - Successfully saved conversation for session 5d51d199-7009-4332-ac17-b7800866a186
+2025-08-04 19:54:16,261 - api.routes.chat - INFO - ✅ Conversation saved successfully: 5d51d199-7009-4332-ac17-b7800866a186
+2025-08-04 19:54:16,261 - api.routes.chat - INFO - Setting session cookie: 5d51d199-7009-4332-ac17-b7800866a186
+2025-08-04 19:54:16,262 - api.routes.chat - INFO - Chat endpoint completed successfully

@@ -1,0 +1,186 @@
+2025-08-04 21:26:16,864 - root - INFO - Logging configured successfully
+2025-08-04 21:26:51,962 - api.routes.chat - INFO - Chat endpoint called with message: total Revenue Onsite for Quarter "Q1'26"...
+2025-08-04 21:26:51,964 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:26:51,964 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:26:52,585 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:26:52,655 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:26:52,655 - api.routes.chat - INFO - Existing messages count: 2
+2025-08-04 21:26:52,655 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:26:52,655 - services.assistant.chat - INFO - Processing query: total Revenue Onsite for Quarter "Q1'26"...
+2025-08-04 21:26:52,656 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:26:52,691 - services.assistant.chat - INFO - Loaded 2 messages from conversation history
+2025-08-04 21:26:52,733 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:26:52,735 - services.assistant.chat - INFO - Handling general query with LLM: total Revenue Onsite for Quarter "Q1'26"...
+2025-08-04 21:27:01,245 - services.assistant.chat - INFO - LLM response generated: 190 characters
+2025-08-04 21:27:01,245 - services.assistant.chat - INFO - Generated response: 190 characters
+2025-08-04 21:27:01,246 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:27:01,246 - api.routes.chat - INFO - Response length: 190
+2025-08-04 21:27:01,246 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:27:01,246 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:27:01,246 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:27:01,280 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:27:04,019 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:27:04,019 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:27:04,019 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 21:27:19,741 - api.routes.chat - INFO - Chat endpoint called with message: total Revenue Onsite for Quarter "Q1'26"...
+2025-08-04 21:27:19,741 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:27:19,742 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:27:20,538 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:27:20,572 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:27:20,572 - api.routes.chat - INFO - Existing messages count: 4
+2025-08-04 21:27:20,572 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:27:20,572 - services.assistant.chat - INFO - Processing query: total Revenue Onsite for Quarter "Q1'26"...
+2025-08-04 21:27:20,573 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:27:20,607 - services.assistant.chat - INFO - Loaded 4 messages from conversation history
+2025-08-04 21:27:20,641 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:27:20,643 - services.assistant.chat - INFO - Handling general query with LLM: total Revenue Onsite for Quarter "Q1'26"...
+2025-08-04 21:27:29,859 - services.assistant.chat - INFO - LLM response generated: 224 characters
+2025-08-04 21:27:29,860 - services.assistant.chat - INFO - Generated response: 224 characters
+2025-08-04 21:27:29,860 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:27:29,860 - api.routes.chat - INFO - Response length: 224
+2025-08-04 21:27:29,860 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:27:29,861 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:27:29,861 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:27:29,900 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:27:32,584 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:27:32,585 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:27:32,585 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 21:30:52,307 - api.routes.chat - INFO - Chat endpoint called with message: Can you please give me total revenue of Quarter Q4...
+2025-08-04 21:30:52,307 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:30:52,307 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:30:52,984 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:30:53,019 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:30:53,020 - api.routes.chat - INFO - Existing messages count: 6
+2025-08-04 21:30:53,020 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:30:53,020 - services.assistant.chat - INFO - Processing query: Can you please give me total revenue of Quarter Q4...
+2025-08-04 21:30:53,020 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:30:53,054 - services.assistant.chat - INFO - Loaded 6 messages from conversation history
+2025-08-04 21:30:53,089 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:30:53,091 - services.assistant.chat - INFO - Handling general query with LLM: Can you please give me total revenue of Quarter Q4...
+2025-08-04 21:31:02,589 - services.assistant.chat - INFO - LLM response generated: 232 characters
+2025-08-04 21:31:02,589 - services.assistant.chat - INFO - Generated response: 232 characters
+2025-08-04 21:31:02,589 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:31:02,589 - api.routes.chat - INFO - Response length: 232
+2025-08-04 21:31:02,590 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:31:02,590 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:31:02,590 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:31:02,623 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:31:05,794 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:31:05,795 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:31:05,795 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 21:33:56,145 - api.routes.chat - INFO - Chat endpoint called with message: Share the total revenue Quarter Q4'25 of Pricing M...
+2025-08-04 21:33:56,146 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:33:56,146 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:33:56,942 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:33:56,980 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:33:56,980 - api.routes.chat - INFO - Existing messages count: 8
+2025-08-04 21:33:56,981 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:33:56,981 - services.assistant.chat - INFO - Processing query: Share the total revenue Quarter Q4'25 of Pricing M...
+2025-08-04 21:33:56,981 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:33:57,014 - services.assistant.chat - INFO - Loaded 8 messages from conversation history
+2025-08-04 21:33:57,373 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:33:57,375 - services.assistant.chat - INFO - Handling general query with LLM: Share the total revenue Quarter Q4'25 of Pricing M...
+2025-08-04 21:34:09,264 - services.assistant.chat - INFO - LLM response generated: 596 characters
+2025-08-04 21:34:09,264 - services.assistant.chat - INFO - Generated response: 596 characters
+2025-08-04 21:34:09,264 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:34:09,264 - api.routes.chat - INFO - Response length: 596
+2025-08-04 21:34:09,264 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:34:09,265 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:34:09,265 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:34:09,301 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:34:12,628 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:34:12,628 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:34:12,628 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 21:35:32,989 - api.routes.chat - INFO - Chat endpoint called with message: Share the total revenue Quarter Q4'25 of Proj Pric...
+2025-08-04 21:35:32,991 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:35:32,991 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:35:33,631 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:35:33,667 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:35:33,667 - api.routes.chat - INFO - Existing messages count: 10
+2025-08-04 21:35:33,667 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:35:33,668 - services.assistant.chat - INFO - Processing query: Share the total revenue Quarter Q4'25 of Proj Pric...
+2025-08-04 21:35:33,668 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:35:33,702 - services.assistant.chat - INFO - Loaded 10 messages from conversation history
+2025-08-04 21:35:33,735 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:35:33,737 - services.assistant.chat - INFO - Handling general query with LLM: Share the total revenue Quarter Q4'25 of Proj Pric...
+2025-08-04 21:35:43,218 - services.assistant.chat - INFO - LLM response generated: 568 characters
+2025-08-04 21:35:43,218 - services.assistant.chat - INFO - Generated response: 568 characters
+2025-08-04 21:35:43,218 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:35:43,218 - api.routes.chat - INFO - Response length: 568
+2025-08-04 21:35:43,218 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:35:43,219 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:35:43,219 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:35:43,260 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:35:45,909 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:35:45,910 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:35:45,911 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 21:36:27,882 - api.routes.chat - INFO - Chat endpoint called with message: generate the total revenue Quarter Q4'25 of Proj P...
+2025-08-04 21:36:27,882 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:36:27,882 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:36:28,499 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:36:28,566 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:36:28,567 - api.routes.chat - INFO - Existing messages count: 12
+2025-08-04 21:36:28,567 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:36:28,567 - services.assistant.chat - INFO - Processing query: generate the total revenue Quarter Q4'25 of Proj P...
+2025-08-04 21:36:28,568 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:36:28,604 - services.assistant.chat - INFO - Loaded 12 messages from conversation history
+2025-08-04 21:36:28,639 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:36:28,641 - services.assistant.chat - INFO - Handling general query with LLM: generate the total revenue Quarter Q4'25 of Proj P...
+2025-08-04 21:36:38,285 - services.assistant.chat - INFO - LLM response generated: 645 characters
+2025-08-04 21:36:38,286 - services.assistant.chat - INFO - Generated response: 645 characters
+2025-08-04 21:36:38,287 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:36:38,287 - api.routes.chat - INFO - Response length: 645
+2025-08-04 21:36:38,287 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:36:38,287 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:36:38,287 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:36:38,325 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:36:41,232 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:36:41,232 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:36:41,233 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 21:40:35,131 - api.routes.chat - INFO - Chat endpoint called with message: generate the summeirzed total revenue Quarter Q4'2...
+2025-08-04 21:40:35,132 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:40:35,133 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:40:36,157 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:40:36,192 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:40:36,192 - api.routes.chat - INFO - Existing messages count: 14
+2025-08-04 21:40:36,192 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:40:36,192 - services.assistant.chat - INFO - Processing query: generate the summeirzed total revenue Quarter Q4'2...
+2025-08-04 21:40:36,192 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:40:36,227 - services.assistant.chat - INFO - Loaded 14 messages from conversation history
+2025-08-04 21:40:36,261 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:40:36,263 - services.assistant.chat - INFO - Handling general query with LLM: generate the summeirzed total revenue Quarter Q4'2...
+2025-08-04 21:40:48,898 - services.assistant.chat - INFO - LLM response generated: 570 characters
+2025-08-04 21:40:48,899 - services.assistant.chat - INFO - Generated response: 570 characters
+2025-08-04 21:40:48,899 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:40:48,899 - api.routes.chat - INFO - Response length: 570
+2025-08-04 21:40:48,899 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:40:48,899 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:40:48,899 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:40:51,121 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:41:01,078 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:41:01,078 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:41:01,079 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 21:45:51,151 - api.routes.chat - INFO - Chat endpoint called with message: generate the summerized  Revenue Bought Out for Qu...
+2025-08-04 21:45:51,152 - api.routes.chat - INFO - Request session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:45:51,152 - api.routes.chat - INFO - Cookie session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:45:52,025 - api.routes.chat - INFO - Target session_id: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:45:52,068 - api.routes.chat - INFO - Existing conversation found: True
+2025-08-04 21:45:52,068 - api.routes.chat - INFO - Existing messages count: 16
+2025-08-04 21:45:52,069 - api.routes.chat - INFO - Generating response...
+2025-08-04 21:45:52,069 - services.assistant.chat - INFO - Processing query: generate the summerized  Revenue Bought Out for Qu...
+2025-08-04 21:45:52,069 - services.assistant.chat - INFO - Compliance check passed
+2025-08-04 21:45:52,104 - services.assistant.chat - INFO - Loaded 16 messages from conversation history
+2025-08-04 21:45:52,138 - database.simulated_db - INFO - Using simulated database as fallback
+2025-08-04 21:45:52,140 - services.assistant.chat - INFO - Handling general query with LLM: generate the summerized  Revenue Bought Out for Qu...
+2025-08-04 21:46:01,245 - services.assistant.chat - INFO - LLM response generated: 529 characters
+2025-08-04 21:46:01,245 - services.assistant.chat - INFO - Generated response: 529 characters
+2025-08-04 21:46:01,245 - api.routes.chat - INFO - Response generated. Is compliant: True
+2025-08-04 21:46:01,246 - api.routes.chat - INFO - Response length: 529
+2025-08-04 21:46:01,246 - api.routes.chat - INFO - Saving conversation to database...
+2025-08-04 21:46:01,246 - services.assistant.chat - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:46:01,246 - services.storage.conversation - INFO - Saving conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c with 2 messages
+2025-08-04 21:46:01,281 - services.storage.conversation - INFO - Found existing conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c, appending messages
+2025-08-04 21:46:04,965 - services.assistant.chat - INFO - Successfully saved conversation for session 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:46:04,965 - api.routes.chat - INFO - ✅ Conversation saved successfully: 95533692-cb0e-4a5d-a66d-99767fb12b5c
+2025-08-04 21:46:04,965 - api.routes.chat - INFO - Chat endpoint completed successfully
+2025-08-04 22:12:27,792 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised DeadlineExceeded: 504 Deadline Exceeded.
