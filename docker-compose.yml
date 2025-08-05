@@ -1,0 +1,73 @@
+services:
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    container_name: wealth-assistant-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY:-AIzaSyD83yavELzObxwvUrQy8VyZcZ9-TzlFWlU}
+      - MONGO_URI=${MONGO_URI:-mongodb+srv://ayush:123%40123@cluster0.rrv507u.mongodb.net/Project0?retryWrites=true&w=majority}
+      - MONGO_DB_NAME=${MONGO_DB_NAME:-Project0}
+      - DEBUG_MODE=${DEBUG_MODE:-False}
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    volumes:
+      - ./Backend/logs:/app/logs
+      - ./Backend/temp_uploads:/app/temp_uploads
+    networks:
+      - wealth-assistant-network
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import requests; requests.get('http://localhost:8000/')",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  frontend:
+    build:
+      context: ./BodhAIFrontend
+      dockerfile: Dockerfile
+    container_name: wealth-assistant-frontend
+    ports:
+      - "80:80"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - wealth-assistant-network
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "wget",
+          "--no-verbose",
+          "--tries=1",
+          "--spider",
+          "http://localhost:80/",
+        ]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+networks:
+  wealth-assistant-network:
+    driver: bridge
+
+volumes:
+  backend_logs:
+    driver: local
+  backend_uploads:
+    driver: local

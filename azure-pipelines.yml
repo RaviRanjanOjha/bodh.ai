@@ -1,0 +1,30 @@
+trigger:
+- main
+- feature/*  # Also trigger on feature branches
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - group: wealth-app-secrets  # References your secured GOOGLE_API_KEY
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.13'  # Match your Python version
+  displayName: 'Set up Python'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r Backend/requirements.txt
+  displayName: 'Install dependencies'
+
+
+- script: |
+    echo "Running main application..."
+    python Backend/main.py
+  timeoutInMinutes : 2
+  continueOnError : true
+  displayName: 'Run Wealth Management App'
+  env:
+    GOOGLE_API_KEY: $(GOOGLE_API_KEY)  # Key injected safely
