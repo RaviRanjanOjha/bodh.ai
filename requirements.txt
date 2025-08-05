@@ -6,9 +6,10 @@ langchain
 langchain_mongodb
 pandas
 pymongo
-python-multipart  # Required for FastAPI file upload features
+python-multipart
 pydantic-settings
 langchain_google_genai
 langchain_community
 plotly
 SpeechRecognition
+fastapi[all]
