@@ -129,25 +129,6 @@ class LLMService:
 
         return self.llm.invoke(prompt).content.strip()
 
-    # def query_documents(self, query: str) -> str:
-    #     if not self.vector_db:
-    #       return "No vector db found"
-    #     docs=self.vector_db.similarity_search(query,k=3)
-    #     if not docs:
-    #       return "No similar documents found for query"
-    #     context="\n".join([doc.page_content for doc in docs])
-    #     prompt=f"""You are an AI assisstant. Answer the following question **strictly** using the text excerpts below.
-    #     Resolve the duplicate values only if there are two or more clients with the same full name, by asking the user for full client name or client ID.
-    #     DOCUMENT EXCERPTS:
-    #     {context}
-    #     QUERY:
-    #     {query}
-    #     If the answer is not found in the excerpts, say "The answer is not available in the provided documents." Keep the response concise and focused."""
-    #     answer= self.llm.invoke(prompt).content
-    #     return  f"**Matched document chunks**:\\n\n{context}\n\n **Answer**:\n{answer}"
-
-    # In services/llm/base.py:
-
     def generate_response(
         self, query: str, conversation_history: List[Dict] = None
     ) -> str:

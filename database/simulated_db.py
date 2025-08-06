@@ -102,73 +102,9 @@ class HybridDatabase:
                 ],
             ),
         }
-
-        market_data = {
-            "SP500": {
-                "ytd_return": 12.4,
-                "pe_ratio": 22.3,
-                "volatility": 16.2,
-                "last_updated": datetime.now().isoformat(),
-            },
-            "Bonds": {
-                "ytd_return": 3.2,
-                "duration": 6.5,
-                "yield": 4.1,
-                "last_updated": datetime.now().isoformat(),
-            },
-            "RealEstate": {
-                "ytd_return": 5.7,
-                "cap_rate": 4.2,
-                "occupancy": 92.5,
-                "last_updated": datetime.now().isoformat(),
-            },
-            "Commodities": {
-                "ytd_return": -2.1,
-                "volatility": 24.8,
-                "last_updated": datetime.now().isoformat(),
-            },
-        }
-
-        risk_metrics = {
-            "client_001": {
-                "sharpe_ratio": 1.45,
-                "max_drawdown": -8.2,
-                "beta": 1.15,
-                "alpha": 2.3,
-                "var_95": -125000,
-                "volatility": 15.7,
-                "calculated_on": datetime.now().isoformat(),
-            },
-            "client_002": {
-                "sharpe_ratio": 0.98,
-                "max_drawdown": -4.1,
-                "beta": 0.65,
-                "alpha": 1.1,
-                "var_95": -45000,
-                "volatility": 9.2,
-                "calculated_on": datetime.now().isoformat(),
-            },
-        }
-
-        market_events = [
-            {
-                "date": (datetime.now() - timedelta(days=i)).strftime("%Y-%m-%d"),
-                "title": f"Market Event {i}",
-                "impact": ["High", "Medium", "Low"][i % 3],
-                "description": f"This is a simulated market event number {i}",
-                "affected_sectors": [
-                    ["Technology", "Healthcare"][i % 2],
-                    ["Financial", "Energy"][(i + 1) % 2],
-                ],
-            }
-            for i in range(10, 0, -1)
-        ]
-
+ 
         return {
             "clients": {k: v.dict() for k, v in clients.items()},
-            "market_data": market_data,
-            "risk_metrics": risk_metrics,
-            "market_events": market_events,
             "last_updated": datetime.now().isoformat(),
         }
 
