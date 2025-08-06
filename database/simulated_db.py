@@ -102,7 +102,7 @@ class HybridDatabase:
                 ],
             ),
         }
- 
+
         return {
             "clients": {k: v.dict() for k, v in clients.items()},
             "last_updated": datetime.now().isoformat(),

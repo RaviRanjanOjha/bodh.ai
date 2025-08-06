@@ -32,8 +32,8 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # Initialize logging before anything else
 setup_logging()
 app = FastAPI(
-    title="Wealth Management API",
-    description="REST API for Wealth Management AI Assistant",
+    title="bodh.ai API",
+    description="REST API for bodh.ai AI Assistant",
     version="1.0.0",
     openapi_url="/openapi.json",
     docs_url="/docs",

@@ -501,10 +501,9 @@ async def get_followup_questions(session_id: str = Cookie(None)):
         # Generate questions using LLM
         prompt = f"""
         Based on this conversation excerpt, generate exactly 3 professional follow-up questions 
-        that a wealth advisor would ask to continue the discussion. The questions should be:
-        - Relevant to wealth management
-        - Natural follow-ups to the discussion
-        - Open-ended to encourage detailed answers
+        that a general assistant would ask to continue the discussion. The questions should be:
+        - Relevant to the user's needs
+        - Summarization of the data
         - Formatted as a JSON list of strings like ["question1", "question2", "question3"]
 
         Return ONLY the JSON array, nothing else.
@@ -513,7 +512,7 @@ async def get_followup_questions(session_id: str = Cookie(None)):
         {context}
 
         Example response:
-        ["What is your investment time horizon?", "Are you considering diversification?", "How can I help with your retirement planning?"]
+        ["What is total revenue of FY25 quarter 1?", "can you generate a report for FY25?", "Can you show me project wise revenue for FY25?"]
         """
         
         llm_service = LLMService()
@@ -545,9 +544,8 @@ async def get_followup_questions(session_id: str = Cookie(None)):
             
             # Fallback questions
             questions = [
-                "Could you elaborate on your investment strategy?",
-                "Are you considering any changes to your portfolio?",
-                "How can I help you with your financial planning?"
+                "Could you please tell me project wise revenue?",
+                "Are you considering any changes to next financial year based on previous yaer revenue records?",
             ]
         
         return FollowUpQuestionsResponse(

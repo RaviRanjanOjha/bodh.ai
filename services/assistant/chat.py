@@ -1,7 +1,4 @@
 from typing import Optional, Generator, List, Dict, Any
-import time
-import json
-from datetime import datetime
 from typing import Tuple
 from services.storage.conversation import ConversationModel
 from services.llm.base import LLMService
@@ -13,8 +10,6 @@ import asyncio
 from services.assistant.base import BaseAssistant
 from services.assistant.compliance import ComplianceChecker
 from services.assistant.documents import DocumentService
-import json
-from datetime import datetime, timedelta
 import plotly.express as px
 import logging
 from services.llm.base import LLMService
@@ -189,7 +184,7 @@ Please respond to the current question considering the conversation context abov
         3. Potential impact on client portfolios
         4. Recommended actions if appropriate
         
-        Keep the response professional but understandable for wealth advisors.
+        Keep the response professional but understandable for users.
         """
         return (
             self.llm_service.llm.invoke(prompt).content
@@ -199,7 +194,7 @@ Please respond to the current question considering the conversation context abov
     def _handle_general_query(
         self, query: str, conversation_history: List[Dict] = None
     ) -> str:
-        """Handle general wealth management queries"""
+        """Handle general queries"""
         logger.info(f"Handling general query with LLM: {query[:50]}...")
         try:
             # Use the LLM service to generate a proper response
@@ -405,8 +400,8 @@ Please respond to the current question considering the conversation context abov
         past_context = self.get_conversation_context(session_id)
 
         prompt = f"""
-        You are a professional wealth management assistant. Continue this conversation:
-        
+        You are a professional assistant. Continue this conversation:
+
         {past_context}
         
         User: {new_message}

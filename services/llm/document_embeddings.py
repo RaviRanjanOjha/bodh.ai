@@ -81,24 +81,38 @@ class DocumentEmbeddingService:
 
     def process_excel(self, filepath: str):
         import pandas as pd
+        from langchain_text_splitters import RecursiveCharacterTextSplitter
 
         try:
-            df = pd.read_excel(
-                filepath, header=1
-            )  # ensures first row is treated as header
-            text = df.to_csv(index=False, float_format="%.2f")
+            # Load Excel with appropriate header
+            df = pd.read_excel(filepath, header=1)
+
+            # Format each row into a readable string while keeping float formatting consistent
+            records = []
+            for index, row in df.iterrows():
+                formatted_row = ", ".join(
+                    (
+                        f"{col}: {value:.2f}"
+                        if isinstance(value, float)
+                        else f"{col}: {value}"
+                    )
+                    for col, value in row.items()
+                )
+                records.append(formatted_row)
+
+            combined_text = "\n".join(records)
 
             # Split text into chunks
             text_splitter = RecursiveCharacterTextSplitter(
                 chunk_size=1000, chunk_overlap=0
             )
-            documents = text_splitter.create_documents([text])
+            documents = text_splitter.create_documents([combined_text])
 
             # Add metadata
             for doc in documents:
                 doc.metadata = {"source": filepath, "type": "excel"}
 
-            # Create embeddings and store
+            # Store in vector DB
             vector_store = MongoDBAtlasVectorSearch.from_documents(
                 documents=documents,
                 embedding=self.embedding_model,
@@ -112,7 +126,6 @@ class DocumentEmbeddingService:
             raise RuntimeError(f"Failed to process Excel file {filepath}: {str(e)}")
 
     def get_all_excel_text(self) -> str:
-        """Fetch all Excel-type documents from MongoDB and merge text"""
         docs = self.collection.find({"type": "excel"})
         combined = "\n".join(
             doc.get("text", "") or doc.get("page_content", "") for doc in docs

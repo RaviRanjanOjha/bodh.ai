@@ -30,20 +30,15 @@ class LLMService:
         self.compliance_checked = False
         self.document_service = DocumentService()
         self.scope_description = """
-        This assistant specializes in wealth management topics including:
-        - Client portfolio analysis
-        - Risk assessment
-        - Investment strategy
-        - Market comparisons
-        - Account-specific queries
-        - Financial planning
-        - Retirement planning
-        - Tax strategies
-        - Estate planning
+        This assistant specializes in general topics topics including:
+        - Total revenue
+        - Quertly result
+        - summerized report
+        - sum of numbers in csv columns
         """
 
     def is_in_scope(self, query: str) -> bool:
-        """Check if the query falls within wealth management scope"""
+        """Check if the query falls within general assistance scope"""
         # Make this much more lenient - only reject obviously off-topic queries
         out_of_scope_terms = [
             "weather",
@@ -66,25 +61,11 @@ class LLMService:
         if any(term in query_lower for term in out_of_scope_terms):
             return False
 
-        # If it contains wealth/finance terms, accept
+        # If it contains any terms (like news, technology), accept
         finance_terms = [
-            "portfolio",
-            "investment",
-            "client",
-            "money",
-            "fund",
-            "stock",
-            "bond",
-            "retirement",
-            "wealth",
-            "financial",
-            "asset",
-            "risk",
-            "return",
-            "market",
-            "account",
-            "balance",
-            "allocation",
+            "revenue",
+            "sum",
+            "total",
         ]
 
         if any(term in query_lower for term in finance_terms):
@@ -112,7 +93,7 @@ class LLMService:
         }
 
         prompt = f"""
-        You are a UXM RFP response assistant. Answer the question based on this data:
+        You are a general professional assistant that can add any number and generate correct result. Answer the question based on this data:
         
         CLIENT DATA:
         {json.dumps(client_data, indent=2)}
@@ -121,7 +102,7 @@ class LLMService:
         
         Rules:
         1. Be concise but complete
-        2. Include client names when relevant
+        2. Add all numbers in the response
         3. Don't make up information not in the data
         
         Answer:
@@ -163,21 +144,33 @@ class LLMService:
         # Get data responses
         # db_response = self.query_wealth_db(query)
         doc_response = self.document_service.query_documents(query)
+        sum_instruction = """
+            Special Rule:
+            - When the user asks to perform a "simple sum", extract all numeric values from the given column (or input list).
+            - Add them **one-by-one**, treating each as a float or number.
+            - Ignore invalid or non-numeric entries.
+            - Use Excel formulas or libraries for this.
+            - Show step-by-step if user asks, otherwise just show final result.
+            """
 
         if context_prompt:
-            prompt = f"""Your role: Professional wealth management assistant
-    {context_prompt}
+            prompt = f"""Your role: Professional general assistant
+            {context_prompt}
 
     Available Information:
     - Documents: {doc_response}
 
+    {sum_instruction}
+
     Please provide a concise, professional response answering the user's question based on all available context:"""
         else:
-            prompt = f"""Your role: Professional wealth management assistant
+            prompt = f"""Your role: Professional general assistant
     Question: {query}
 
     Available Information:
     - Documents: {doc_response}
+
+    {sum_instruction}
 
     Please provide a concise, professional response:"""
 

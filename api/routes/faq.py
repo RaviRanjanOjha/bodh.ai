@@ -53,7 +53,7 @@ class FAQGenerator:
             return {q: [q] for q in questions}
 
         prompt = f"""
-        Analyze these wealth management questions and group similar ones together:
+        Analyze these general assistance questions and group similar ones together:
         {questions[:50]}
         
         Return ONLY a valid JSON dictionary where:
@@ -62,13 +62,9 @@ class FAQGenerator:
         
         Example output format:
         {{
-            "What is my portfolio performance?": [
-                "how is my portfolio doing",
-                "show me my portfolio performance"
-            ],
-            "What are my investment options?": [
-                "what can I invest in",
-                "show investment choices"
+            "What is my FY25 revenue?": [
+                "how is my total revenue for FY25?",
+                "show me my FY25 revenue Q1"
             ]
         }}
         """
